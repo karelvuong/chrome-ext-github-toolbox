@@ -1,6 +1,6 @@
 {
   "name": "GitHub Toolbox",
-  "description": "Extend GitHub's functionality with useful tools.",
+  "description": "Extends GitHub's functionality with a few useful tools.",
   "version": "1.0.0",
   "permissions": [
     "activeTab"
