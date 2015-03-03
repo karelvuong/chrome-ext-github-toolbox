@@ -1,0 +1,19 @@
+{
+  "name": "GitHub Toolbox",
+  "description": "Extend GitHub's functionality with useful tools.",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [{
+    "js": [
+      "jquery.min.js",
+      "github-toolbox.js"
+    ],
+    "matches": ["https://github.com/*tab=repositories"]
+  }],
+  "browser_action": {
+    "default_title": "GitHub Toolbox"
+  },
+  "manifest_version": 2
+}
